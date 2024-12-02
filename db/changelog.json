@@ -1,5 +1,10 @@
 [
    {
+      "data": "02/12/2024",
+      "titulo": "Conteúdos de Projetos disponível",
+      "descricao": "Foram adicionados meus projetos na aba de projetos, para saber mais acesse pela barra de navegação a parte de 'projetos'.",
+      "imagem": "../assets/projetosatt.png"
+   },{
       "data": "29/11/2024",
       "titulo": "Novo painel de atualizações no destaque",
       "descricao": "Neste painel você pode acessar assa área aqui de atualizações, aqui é possível conferir a constante evolução de nosso site.",
