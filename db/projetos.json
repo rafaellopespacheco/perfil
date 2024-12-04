@@ -6,12 +6,6 @@
       "imagem": "../assets/perfilproject.png",
       "link": "https://rafaellopespacheco.github.io/perfil/"
    },{
-      "data": "30/11/2024",
-      "titulo": "Site Informativo (Responsivo)",
-      "descricao": "Um simples site desenvolvido com foco de testar responsividade, podendo ser acessado de sem problemas em todos os dispositivos.",
-      "imagem": "../assets/android.png",
-      "link": "https://rafaellopespacheco.github.io/android/"
-   },{
       "data": "11/11/2024",
       "titulo": "Conversor de Moedas",
       "descricao": "Um simples conversor de moedas com valores atualizados em tempo real, atualmente possuí poucas moedas, em breve adicionaremos mais.",
