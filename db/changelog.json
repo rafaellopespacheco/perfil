@@ -1,5 +1,10 @@
 [
    {
+      "data": "04/12/2024",
+      "titulo": "Todos os projetos atualizados",
+      "descricao": "Todos os projetos antigo foram alterados para que se comportem bem em difernetes tipos de dispositivos, agora todos os projetos estão responsivos.",
+      "imagem": "../assets/vazio.png"
+   },{
       "data": "02/12/2024",
       "titulo": "Conteúdos de Projetos disponível",
       "descricao": "Foram adicionados meus projetos na aba de projetos, para saber mais acesse pela barra de navegação a parte de 'projetos'.",
