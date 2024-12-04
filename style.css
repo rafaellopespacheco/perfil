@@ -43,6 +43,9 @@ header {
    padding: 30px;
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
 }
 
 header h1 {
@@ -63,6 +66,20 @@ header p {
 
 header img {
    max-width: 300px;
+   max-height: 300px;
+}
+
+header .parte1perfil ,
+header .parte2perfil {
+   flex: 1;
+   max-width: 100%;
+   margin: 10px;
+}
+header .parte1perfil {
+   max-width: 300px;
+}
+header .parte2perfil {
+   min-width: 300px;
 }
 
 nav {
