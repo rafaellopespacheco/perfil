@@ -120,6 +120,20 @@ article img {
    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.353);
 }
 
+#img1 {
+   background-color: black;
+   max-width: 100%;
+   min-height: 400px;
+   background-image: url(assets/programador.png);
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: bottom center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   box-shadow: inset 5px 6px 16px rgba(0, 0, 0, 0.553);
+}
+
 aside {
    padding: 30px;
    border-width: 2px;
