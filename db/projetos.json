@@ -2,6 +2,7 @@
    {
       "data": "06/12/2024",
       "versao": "v.0.0.1 (<strong>ALPHA INSTABLE</strong>)",
+      "ultimaatualização": "06/12/2024 às 01:13",
       "titulo": "Planos e Informações (ALPHA INSTABLE)",
       "descricao": "Um site que oferece planos especificos juntamente com dúvidas frequentes etc, confira!<br><br>⚠️ Problemas de navegação.<br>⚠️ Site não responsivo.<br>⚠️ Alguns itens sem estilos.<br><br>Este são alguns dos pontos que precisam ser finalizados em nosso projeto, lembrando que ele está sendo feito ainda! 😁",
       "imagem": "../assets/select-plan-alpha.png",
@@ -10,6 +11,7 @@
    {
       "data": "02/12/2024",
       "versao": "v.0.0.7 (<strong>BETA</strong>)",
+      "ultimaatualização": "Este projeto não possuí atualizações recentes.",
       "titulo": "Potifólio",
       "descricao": "Um site responsivo que visa mostrar meus projetos, um pouco sobre minha história, etc.",
       "imagem": "../assets/perfilproject.png",
@@ -17,6 +19,7 @@
    },{
       "data": "11/11/2024",
       "versao": "v.0.0.3 (<strong>BETA</strong>)",
+      "ultimaatualização": "Este projeto não possuí atualizações recentes.",
       "titulo": "Conversor de Moedas",
       "descricao": "Um simples conversor de moedas com valores atualizados em tempo real, atualmente possuí poucas moedas, em breve adicionaremos mais.",
       "imagem": "../assets/conversordemoedas.png",
@@ -24,6 +27,7 @@
    },{
       "data": "25/01/2024",
       "versao": "v.0.0.7 (<strong>BETA</strong>)",
+      "ultimaatualização": "Este projeto não possuí atualizações recentes.",
       "titulo": "Tela de Login",
       "descricao": "Sistema simples de login, registro e termos, para saber mais acesse o projeto, o site ainda não é responsivo, próxima atualização!",
       "imagem": "../assets/loginsystem.png",
