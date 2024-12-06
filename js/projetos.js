@@ -11,6 +11,7 @@ fetch('../db/projetos.json')
          const itemContent = `
         <h3>${item.titulo}</h3>
         <p class="data"><strong>Data:</strong> ${item.data}</p>
+        <p class="data"><strong>Versão:</strong> ${item.versao}</p>
         <p>${item.descricao}</p>
         <img src="${item.imagem}" alt="Imagem da atualização" />
         <a href="${item.link}" target="_blank" class="acessarprojeto">Acessar Projeto</a>
