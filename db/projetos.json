@@ -1,12 +1,12 @@
 [
    {
       "data": "06/12/2024",
-      "versao": "v.0.0.1 (<strong>ALPHA INSTABLE</strong>)",
-      "ultimaatualização": "06/12/2024 às 01:13",
-      "titulo": "Planos e Informações (ALPHA INSTABLE)",
-      "descricao": "Um site que oferece planos especificos juntamente com dúvidas frequentes etc, confira!<br><br>⚠️ Problemas de navegação.<br>⚠️ Site não responsivo.<br>⚠️ Alguns itens sem estilos.<br><br>Este são alguns dos pontos que precisam ser finalizados em nosso projeto, lembrando que ele está sendo feito ainda! 😁",
+      "versao": "v.0.0.2 (<strong>ALPHA</strong>)",
+      "ultimaatualização": "07/12/2024 às 23:56",
+      "titulo": "Planos e Informações (ALPHA)",
+      "descricao": "Um site que oferece planos especificos juntamente com dúvidas frequentes etc, confira!<br><br><br>⚠️ Este projeto ainda não está configurado para responder bem em outros dispositivos.<br><br>Este são alguns dos pontos que precisam ser finalizados em nosso projeto, lembrando que ele está sendo feito ainda! 😁",
       "imagem": "../assets/select-plan-alpha.png",
-      "link": "https://rafaellopespacheco.github.io/perfil/"
+      "link": "https://rafaellopespacheco.github.io/select-plan/"
    },
    {
       "data": "02/12/2024",
