@@ -1,36 +1,49 @@
 [
    {
+      "data": "09/12/2024",
+      "versao": "v.0.0.5 (<strong>Em desenvolvimento</strong>)",
+      "ultimaatualização": "11/12/2024 às 13:23",
+      "titulo": "Site para Banho e Tosa",
+      "descricao": "Um site criado para uma empresa que trabalha com Estética Animal, neste site possuí dúvidas frequentes, painel de serviços, responsividade com media querys, CTA e diversas outras coisas, confira.",
+      "imagem": "../assets/patinhasdeouro.png",
+      "link": "https://rafaellopespacheco.github.io/patinhasdeouro/",
+      "link2": "https://github.com/rafaellopespacheco/patinhasdeouro/"
+   },{
       "data": "06/12/2024",
-      "versao": "v.0.0.2 (<strong>ALPHA</strong>)",
+      "versao": "v.0.0.2 (<strong>Em desenvolvimento</strong>)",
       "ultimaatualização": "07/12/2024 às 23:56",
       "titulo": "Planos e Informações (ALPHA)",
-      "descricao": "Um site que oferece planos especificos juntamente com dúvidas frequentes etc, confira!<br><br><br>⚠️ Este projeto ainda não está configurado para responder bem em outros dispositivos.<br><br>Este são alguns dos pontos que precisam ser finalizados em nosso projeto, lembrando que ele está sendo feito ainda! 😁",
+      "descricao": "Um site que oferece planos especificos juntamente com dúvidas frequentes etc, confira!<br><br><br>⚠️ Até o momento este projeto ainda não é responsivo, logo em breve será atualizado.",
       "imagem": "../assets/select-plan-alpha.png",
-      "link": "https://rafaellopespacheco.github.io/select-plan/"
+      "link": "https://rafaellopespacheco.github.io/select-plan/",
+      "link2": "https://github.com/rafaellopespacheco/select-plan/"
    },
    {
       "data": "02/12/2024",
-      "versao": "v.0.0.7 (<strong>BETA</strong>)",
-      "ultimaatualização": "Este projeto não possuí atualizações recentes.",
+      "versao": "v.0.0.8",
+      "ultimaatualização": "11/12/2024 às 22:56",
       "titulo": "Potifólio",
       "descricao": "Um site responsivo que visa mostrar meus projetos, um pouco sobre minha história, etc.",
       "imagem": "../assets/perfilproject.png",
-      "link": "https://rafaellopespacheco.github.io/perfil/"
+      "link": "https://rafaellopespacheco.github.io/perfil/",
+      "link2": "https://github.com/rafaellopespacheco/perfil/"
    },{
       "data": "11/11/2024",
-      "versao": "v.0.0.3 (<strong>BETA</strong>)",
+      "versao": "v.0.0.3",
       "ultimaatualização": "Este projeto não possuí atualizações recentes.",
       "titulo": "Conversor de Moedas",
       "descricao": "Um simples conversor de moedas com valores atualizados em tempo real, atualmente possuí poucas moedas, em breve adicionaremos mais.",
       "imagem": "../assets/conversordemoedas.png",
-      "link": "https://rafaellopespacheco.github.io/conversor-de-moedas-web/"
+      "link": "https://rafaellopespacheco.github.io/conversor-de-moedas-web/",
+      "link2": "https://github.com/rafaellopespacheco/conversor-de-moedas-web/"
    },{
       "data": "25/01/2024",
-      "versao": "v.0.0.7 (<strong>BETA</strong>)",
+      "versao": "v.0.0.7",
       "ultimaatualização": "Este projeto não possuí atualizações recentes.",
       "titulo": "Tela de Login",
       "descricao": "Sistema simples de login, registro e termos, para saber mais acesse o projeto, o site ainda não é responsivo, próxima atualização!",
       "imagem": "../assets/loginsystem.png",
-      "link": "https://rafaellopespacheco.github.io/sistema-de-login/"
+      "link": "https://rafaellopespacheco.github.io/sistema-de-login/",
+      "link2": "https://github.com/rafaellopespacheco/sistema-de-login/"
    }
 ]

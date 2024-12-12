@@ -15,7 +15,8 @@ fetch('../db/projetos.json')
         <p class="data"><strong>Atualização recente:</strong> ${item.ultimaatualização}</p>
         <p><br>${item.descricao}</p>
         <img src="${item.imagem}" alt="Imagem da atualização" />
-        <a href="${item.link}" target="_blank" class="acessarprojeto">Acessar Projeto</a>
+        <a href="${item.link2}" target="_blank" class="acessarprojeto">Repositório</a>
+        <a href="${item.link}" target="_blank" class="acessarprojeto">Visualizar Projeto</a>
       `;
 
          changelogItem.innerHTML = itemContent;

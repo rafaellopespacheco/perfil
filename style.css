@@ -322,3 +322,12 @@ footer a:hover, button:hover {
 .projetos-item .data {
    margin-bottom: 10px;
 }
+
+@media (max-width: 850px) { 
+   .articlechangelog {
+      padding: 4px;
+   }
+   .projetos-item img {
+      max-width: 100%;
+   }
+}
