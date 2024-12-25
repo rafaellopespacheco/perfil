@@ -1,5 +1,14 @@
 [
    {
+      "data": "25/12/2024",
+      "versao": "v.1.0 (<strong>Finalizado</strong>)",
+      "ultimaatualização": "25/12/2024 às 18:48",
+      "titulo": "Clone Instagram",
+      "descricao": "Um clone do Instagram feito para treinar as habilidades e testar meus conhecimentos, este site não tem o intuito de pregar golpes ou algo do gênero, este site foi criado como forma didática.",
+      "imagem": "../assets/cloneinsta.png",
+      "link": "https://rafaellopespacheco.github.io/Projeto-Instagram/",
+      "link2": "https://github.com/rafaellopespacheco/Projeto-Instagram"
+   },{
       "data": "09/12/2024",
       "versao": "v.0.0.5 (<strong>Em desenvolvimento</strong>)",
       "ultimaatualização": "11/12/2024 às 13:23",
