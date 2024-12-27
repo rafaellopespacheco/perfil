@@ -3,6 +3,19 @@ const modal = document.getElementById('myModal');
 const openModalBtn = document.getElementById('openModalBtn');
 const closeBtn = document.getElementsByClassName('close-btn')[0];
 
+const myObserver = new IntersectionObserver((entries) => {
+   entries.forEach( (entry) => {
+      if(entry.isIntersecting){
+         entry.target.classList.add('show')
+      } else {
+         entry.target.classList.remove('show')
+      }
+   })
+})
+const elements = document.querySelectorAll('.hidden');
+
+elements.forEach( (element) => myObserver.observe(element))
+
 // Quando o usuário clica no botão, o modal será exibido
 openModalBtn.onclick = function () {
    modal.style.display = 'block';
@@ -19,3 +32,4 @@ window.onclick = function (event) {
       modal.style.display = 'none';
    }
 }
+

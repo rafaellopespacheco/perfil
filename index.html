@@ -18,56 +18,84 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <main>
-         <header>
-            <div class="parte1perfil">
-               <img src="assets/perfil.png" alt="Foto do Rafael Lopes">
-            </div>
-            <div class="parte2perfil">
-               <h1>Rafael Lopes</h1>
-               <h2>Desenvolvedor</h2>
-               <p>Tenho 17 anos, sou Fotógrafo, Desenvolvedor e Designer, sempre buscando aprender e evoluir. Apesar de estar há apenas 2 meses na área de desenvolvimento, minha dedicação e aprendizado rápido me ajudam a crescer a cada dia. Caso queira trocar ideias ou apenas bater um papo, é só me chamar no Instagram!</p>
-            </div>
-         </header>
-         <nav>
-            <a href="index.html">Home</a>
-            <a href="paginas/projetos.html">Projetos</a>
-            <a href="paginas/sobremim.html">Sobre Mim</a>
-         </nav>
-         <article>
-            <h1>Dando vida a ideias com HTML e CSS – e aprendendo mais a cada dia.</h1>
-            <div id="img1"></div>
-            <p>Sou um iniciante em desenvolvimento web com habilidades em HTML e CSS, sempre em busca de aprender novas tecnologias e transformar ideias em realidade digital. Aqui, você encontrará meus projetos, informações sobre minha trajetória e uma forma de entrar em contato comigo.</p>
-            
-            <a href="paginas/projetos.html" class="destaque">
-               <aside>
-                  <h1>💻 Projetos</h1>
-                  <p>Explore minhas criações! Desde designs simples com HTML e CSS até projetos que mostram meu aprendizado constante no desenvolvimento web.</p>
-               </aside>
-            </a>
+   <header>
+      <h2>Rafael Lopes</h2>
+      <nav>
+         <a href="#">Home</a>
+         <a href="#tecnologias">Habilidades</a>
+         <a href="#projetos">Projetos</a>
+      </nav>
+   </header>
+   <main>
+      <section class="principal" class="hidden">
+         <div class="parte1perfil">
+            <img src="assets/perfil.png" alt="Foto do Rafael Lopes">
+         </div>
+         <div class="parte2perfil">
+            <h1>Rafael Lopes</h1>
+            <h2>Desenvolvedor Front-End</h2>
+            <p>Tenho 17 anos, sou Fotógrafo, Desenvolvedor e Designer, sempre buscando aprender e evoluir. Apesar de estar há apenas 2 meses na área de desenvolvimento, minha dedicação e aprendizado rápido me ajudam a crescer a cada dia. Caso queira trocar ideias ou apenas bater um papo, é só me chamar no Instagram!</p>
+         </div>
+      </section>
 
-            <a href="paginas/sobremim.html" class="destaque">
-               <aside>
-                  <h1>📖 Sobre Mim</h1>
-                  <p>Descubra minha jornada como desenvolvedor web. Começando com HTML e CSS, estou construindo um caminho cheio de aprendizado e novas conquistas.</p>
-               </aside>
-            </a>
+      <section class="tecnologias" id="tecnologias" class="hidden">
+         <h2>Minhas Habilidades</h2>
+         <div class="contenttech">
+            <aside class="single-hidden">
+               <img src="assets/html.png" alt="logo html">
+            </aside>
+            <aside class="single-hidden">
+               <img src="assets/css.png" alt="logo css">
+            </aside>
+            <aside class="single-hidden">
+               <img src="assets/js.png" alt="logo js">
+            </aside>
+         </div>
+      </section>
 
-            <a href="paginas/faleconosco.html" class="destaque">
-               <aside>
-                     <h1>✉️ Contato</h1>
-                     <p>Vamos conversar? Estou disponível para colaborações, feedback ou simplesmente para trocar ideias sobre tecnologia!</p>
-               </aside>
-            </a>
-            <a href="paginas/novidades.html" class="destaque">
-               <aside>
-                     <h1>🛠️ Novidades</h1>
-                     <p>Caso você seja curioso e queria saber as novidades que venho adicionando neste meu portifólio, fique a vontade!</p>
-               </aside>
-            </a>
+      <section class="projetos" id="projetos"> 
+         <h2>Principais Projetos</h2>
+         <div class="containerprojetos">
+            <aside>
+               <div class="projetoconteudo">
+                  <h3>Banho e Tosa</h3>
+                  <p>Site Institucional voltada para o ramo de Estética Animal, um site com diversas tecnologias, layout moderno voltado ao ramo de pets.</p>
+                  <div class="tecnologias-projetos">
+                     <img src="assets/html.png" alt="logo html">
+                     <img src="assets/css.png" alt="logo css">
+                     <img src="assets/js.png" alt="logo js">
+                  </div>
+                  <div class="projetobotoes">
+                     <a href="https://patinhasdeouro.netlify.app/" target="_blank">Acessar Projeto</a>
+                     <a href="https://github.com/rafaellopespacheco/patinhasdeouro/" target="_blank">Acessar Repositório</a>
+                  </div>
+               </div>
+               <div>
+                  <a href="https://patinhasdeouro.netlify.app/" class="imgbutton"><img src="assets/patinhasdeouro.png" alt="site de um banho e tosa"></a>
+               </div>
+            </aside>
+            <aside class="projetodireita">
+               <div class="projetoconteudo">
+                  <h3>Projeto Instagram</h3>
+                  <p>Uma página semelhante ao Instagram para testar habilidade de desenvolvimento web, este site foi feito para fins didáticos e não para aplicações de golpes ou coisa do gênero.</p>
+                  <div class="tecnologias-projetos">
+                     <img src="assets/html.png" alt="logo html">
+                     <img src="assets/css.png" alt="logo css">
+                     <img src="assets/js.png" alt="logo js">
+                  </div>
+                  <div class="projetobotoes">
+                     <a href="https://rafaellopespacheco.github.io/Projeto-Instagram/" target="_blank">Acessar Projeto</a>
+                     <a href="https://github.com/rafaellopespacheco/Projeto-Instagram" target="_blank">Acessar Repositório</a>
+                  </div>
+               </div>
+               <div>
+                  <a href="https://patinhasdeouro.netlify.app/" class="imgbutton"><img src="assets/cloneinsta.png" alt="site de um banho e tosa"></a>
+               </div>
+            </aside>
+         </div>
+      </section>
 
-         </article>
-      </main>
+   </main>
    <footer>
       <p>© 2024 Rafael Lopes. Todos os direitos reservados.</p>
       <a href="https://www.instagram.com/rafael.lopes.pacheco/">Instagram</a>
