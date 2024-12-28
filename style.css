@@ -58,16 +58,20 @@ main {
    transition: all 1s;
 }
 
-.single-hidden:nth-child(2) {
-   transition-delay: 400ms;
+.hidden:nth-child(2) {
+   transition-delay: 300ms;
 }
 
-.single-hidden:nth-child(3) {
-   transition-delay: 700ms;
+.hidden:nth-child(3) {
+   transition-delay: 600ms;
 }
 
-.single-hidden:nth-child(4) {
-   transition-delay: 1000ms;
+.hidden:nth-child(4) {
+   transition-delay: 900ms;
+}
+
+.hidden:nth-child(5) {
+   transition-delay: 1200ms;
 }
 
 header {
@@ -133,8 +137,24 @@ nav a:hover {
    max-height: 300px;
 }
 
+.linksuteis {
+   display: flex;
+   margin-top: 30px;
+   gap: 20px;
+}
+
+.linksuteis img {
+   width: 60px;
+   height: 60px;
+   transition: .6s;
+}
+
+.linksuteis img:hover {
+   transform: scale(1.09);
+}
+
 .tecnologias {
-   margin-top: 40px;
+   margin-top: 70px;
 }
 
 .tecnologias img {
@@ -165,23 +185,39 @@ nav a:hover {
    justify-content: center;
 }
 
+.containerprojetos {
+   display: flex;
+   gap: 30px;
+}
+
 .projetos aside {
    margin-top: 40px;
    display: flex;
+   flex-direction: column;
    color: white;
    justify-content: space-between;
+   border: 1px solid var(--cor7);
+   border-radius: 20px;
+   box-shadow: 2px 2px 8px black;
 }
 
-.projetos aside img {
-   max-width: 500px;
-   border-radius: 5px;
+.projetos .projetoimagem img {
+   max-width: 100%;
+   position: relative;
+   right: 10px;
+   gap: 0;
+   margin: 0;
+   padding: 0;
+   border-radius: 20px 20px 0 0;
+   user-select: none;
 }
 
 .projetos .projetoconteudo {
    justify-content: space-around;
    display: flex;
    flex-direction: column;
-   max-width: 350px;
+   padding: 30px;
+   
 }
 
 .projetos aside .tecnologias-projetos {
@@ -235,41 +271,19 @@ nav a:hover {
    background-color: transparent;
 }
 
-.projetos .projetodireita {
-   flex-direction: row-reverse;
-   margin: 0;
-   padding: 0;
-   margin-top: 100px;
-}
 
 footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
    margin-top: 20px;
-   background-color: var(--cor3);
-   text-align: center;
-   padding: 15px;
+   padding: 150px 0;
    color: white;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: normal;
-   box-shadow: 2px 2px 8px black;
 }
 
-footer p {
-   margin-bottom: 5px;
-}
-
-footer a, button {
-   border: none;
-   background-color: transparent;
-   text-decoration: none;
-   margin: 10px;
-   color: var(--cor7);
-   font-size: 0.9em;
-}
-
-footer a:hover, button:hover {
-   color: var(--cor8);
-   text-decoration: underline;
-}
 
 .modal {
    display: none;
