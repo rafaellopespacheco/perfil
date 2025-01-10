@@ -29,6 +29,7 @@ body {
    -moz-user-select: none; /* Para Firefox */
    -ms-user-select: none; /* Para IE/Edge */
    user-select: none; /* Para navegadores modernos */
+   overflow-x: hidden;
 }
 
 img {
@@ -82,38 +83,6 @@ main {
    transition: 0.3s;
    border-radius: 20px;
    padding: 10px;
-}
-
-/* ANIMAÇÃO DE SCROLL */
-
-.hidden {
-   opacity: 0;
-   filter: blur(15px);
-   transform: translateX(-100%);
-   transition: all 1s;
-}
-
-.show {
-   opacity: 1;
-   filter: blur(0);
-   transform: translateX(0);
-   transition: all 1s;
-}
-
-.hidden:nth-child(2) {
-   transition-delay: 300ms;
-}
-
-.hidden:nth-child(3) {
-   transition-delay: 600ms;
-}
-
-.hidden:nth-child(4) {
-   transition-delay: 900ms;
-}
-
-.hidden:nth-child(5) {
-   transition-delay: 1200ms;
 }
 
 header {
@@ -196,7 +165,11 @@ nav a:hover {
    transition: .6s;
 }
 
-.linksuteis img:hover {
+.linksuteis a {
+   transition: .6s;
+}
+
+.linksuteis a:hover {
    transform: scale(1.09);
 }
 

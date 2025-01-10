@@ -15,6 +15,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Dev Rafael Lopes</title>
    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"> <!-- AOS CSS -->
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,7 +36,7 @@
       </nav>
    </header>
    <main>
-      <section class="principal hidden">
+      <section class="principal" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
          <div class="parte1perfil">
             <img src="assets/perfil.png" alt="Foto do Rafael Lopes">
          </div>
@@ -44,9 +45,10 @@
             <h2>Desenvolvedor Front-End</h2>
             <p>Tenho 17 anos, sou Fotógrafo, Desenvolvedor e Designer, sempre buscando aprender e evoluir. Embora esteja começando na área de desenvolvimento, minha dedicação e aprendizado rápido me ajudam a crescer a cada dia. Caso queira trocar ideias ou apenas bater um papo, é só me chamar no <a href="https://www.instagram.com/rafael.lopes.pacheco" id="instagram" target="_blank">Instagram</a>!</p>
             <div class="linksuteis">
-               <a href="https://www.linkedin.com/in/rafael-lopes-pacheco" target="_blank"><img src="assets/linkedin.png" alt="logo do linkedin"></a>
-               <a href="https://github.com/rafaellopespacheco" target="_blank"><img src="assets/github.png" alt="logo do github"></a>
-               <a href="https://wa.me/5522988364659" target="_blank"><img src="assets/telefone.png" alt="logo do whatsapp"></a>
+               <a href="https://www.linkedin.com/in/rafael-lopes-pacheco"
+               target="_blank"><img src="assets/linkedin.png" alt="logo do linkedin" data-aos="fade-right" data-aos-duration="1000"></a>
+               <a href="https://github.com/rafaellopespacheco" target="_blank"><img src="assets/github.png" alt="logo do github" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"></a>
+               <a href="https://wa.me/5522988364659" target="_blank"><img src="assets/telefone.png" alt="logo do whatsapp"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400"></a>
             </div>
          </div>
       </section>
@@ -54,19 +56,19 @@
       <section class="tecnologias" id="tecnologias">
          <h2>Minhas Habilidades</h2>
          <div class="contenttech">
-            <aside class="hidden">
+            <aside data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
                <img src="assets/html.png" alt="logo html">
             </aside>
-            <aside class="hidden">
+            <aside data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                <img src="assets/css.png" alt="logo css">
             </aside>
-            <aside class="hidden">
+            <aside data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                <img src="assets/js.png" alt="logo js">
             </aside>
-            <aside class="hidden">
+            <aside data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
                <img src="assets/gthub.png" alt="logo js">
             </aside>
-            <aside class="hidden">
+            <aside data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
                <img src="assets/git.png" alt="logo js">
             </aside>
          </div>
@@ -76,7 +78,7 @@
          <h2>Principais Projetos</h2>
          <div class="containerprojetos">
 
-            <aside class="hidden">
+            <aside data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                <div class="projetoimagem">
                   <a href="https://patinhasdeouro.netlify.app/" class="imgbutton"><img src="assets/patinhasdeouro.png" alt="site de um banho e tosa"></a>
                </div>
@@ -96,7 +98,7 @@
                </div>
             </aside>
 
-            <aside class="hidden">
+            <aside data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
                <div class="projetoimagem">
                   <a href="https://patinhasdeouro.netlify.app/" class="imgbutton"><img src="assets/login.png" alt="site de um banho e tosa"></a>
                </div>
@@ -120,16 +122,18 @@
       </section>
 
    </main>
-   <footer class="hidden">
+   <footer data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
       <div class="linksuteis">
-            <a href="https://www.linkedin.com/in/rafael-lopes-pacheco" target="_blank"><img src="assets/linkedin.png" alt="logo do linkedin"></a>
-            <a href="https://github.com/rafaellopespacheco" target="_blank"><img src="assets/github.png" alt="logo do github"></a>
-            <a href="https://wa.me/5522988364659" target="_blank"><img src="assets/telefone.png" alt="logo do whatsapp"></a>
+            <a href="https://www.linkedin.com/in/rafael-lopes-pacheco" target="_blank"><img src="assets/linkedin.png" alt="logo do linkedin" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400"></a>
+            <a href="https://github.com/rafaellopespacheco" target="_blank"><img src="assets/github.png" alt="logo do github" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600"></a>
+            <a href="https://wa.me/5522988364659" target="_blank"><img src="assets/telefone.png" alt="logo do whatsapp" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800"></a>
          </div>
          <h1>Rafael Lopes</h1>
    </footer>
-   
-   <script src="js/script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script> <!-- AOS JS -->
    <script src="js/menu.js"></script>
+   <script>
+      AOS.init(); // Inicializa o AOS
+   </script>
 </body>
 </html>
