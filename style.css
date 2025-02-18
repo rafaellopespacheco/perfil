@@ -293,6 +293,69 @@ nav a:hover {
    background-color: transparent;
 }
 
+.contato {
+   margin-top: 80px;
+   color: white;
+}
+
+.container-contact {
+   display: flex;
+   gap: 40px;
+   align-items: center;
+
+   img {
+      width: 50%;
+      height: 50%;
+   }
+}
+
+#contact-form {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+   input, textarea {
+      margin-bottom: 30px;
+      background-color: transparent;
+      border-radius: 10px;
+      border: 2px solid var(--cor7);
+      padding: 10px;
+      outline: none;
+      color: white;
+      font-size: 1.1em;
+      
+      &:focus {
+         border: 3px solid var(--cor7);
+      }
+   }
+
+   textarea {
+      height: 200px;
+      resize: vertical;
+   }
+}
+
+.contato button {
+   background-color: var(--cor7);
+   color: var(--cor7);
+   font-weight: bolder;
+   text-decoration: none;
+   padding: 10px;
+   border-radius: 10px;
+   transition: all 0.5s;
+   border: none;
+   color: white;
+   font-size: 1.1em;
+   cursor: pointer;
+}
+
+.contato button:hover {
+   background-color: var(--cor7);
+   color: white;
+   background-color: var(--cor8);
+   transform: scale(1.009);
+}
 
 footer {
    display: flex;
