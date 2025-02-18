@@ -8,12 +8,12 @@ document
 
     try {
       let response = await fetch(
-        "https://formsubmit.co/rafael.pachecos2007@gmail.com",
-        {
-          // Substitua pelo seu e-mail ou backend
-          method: "POST",
-          body: formData,
-        }
+         "https://formsubmit.co/192439f470eacd2fa215c00f22197222",
+         {
+            // Substitua pelo seu e-mail ou backend
+            method: "POST",
+            body: formData,
+         }
       );
 
       if (response.ok) {
