@@ -33,6 +33,7 @@
             <li><a href="#">Home</a></li>
             <li><a href="#tecnologias">Habilidades</a></li>
             <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
          </ul>
          
       </nav>
@@ -80,7 +81,28 @@
          <h2>Principais Projetos</h2>
          <div class="containerprojetos">
 
-            <aside data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+            <aside data-aos="fade-up" data-aos-duration="1000">
+               <div class="projetoimagem">
+                  <a href="#produtos" class="imgbutton"><img src="assets/lopesshop.png" alt="site de um banho e tosa"></a>
+               </div>
+
+               <div class="projetoconteudo">
+                  <h3>E-commerce (em breve)</h3>
+                  <p>Site E-commerce, desenvolvido somente com somente HTML, CSS e Java Script, layout moderno adaptável para todos os dispositivos.</p>
+                  <div class="tecnologias-projetos">
+                     <img src="assets/html.png" alt="logo html">
+                     <img src="assets/css.png" alt="logo css">
+                     <img src="assets/js.png" alt="logo js">
+                  </div>
+                  <div class="projetobotoes">
+                     <a href="#projetos" class="botao_desativado">Acessar Projeto</a> <!-- target="_blank" -->
+                     <a href="#projetos" class="botao_desativado">Acessar Repositório</a> <!-- target="_blank" -->
+                  </div>
+               </div>
+               
+            </aside>
+
+            <aside data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="200">
                <div class="projetoimagem">
                   <a href="https://patinhasdeouro.netlify.app/" class="imgbutton"><img src="assets/patinhasdeouro.png" alt="site de um banho e tosa"></a>
                </div>
@@ -120,12 +142,14 @@
                </div>
                
             </aside>
+            
          </div>
       </section>
    
-      <section class="contato" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">  
+      <section class="contato">  
+         <p id="contato"></p>
          
-         <div class="container-contact">
+         <div class="container-contact" data-aos="fade-up" data-aos-duration="1000">
             <form id="contact-form">
                <h2>Contato</h2>
                <label for="name">Nome:</label>
